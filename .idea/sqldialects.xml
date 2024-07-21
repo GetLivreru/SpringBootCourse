@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/Project1/src/main/resources/jdbc/create-book.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Project1/src/main/resources/jdbc/create-book.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Project1/src/main/resources/jdbc/create-person.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Project1/src/main/resources/jdbc/drop-book.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Project1/src/main/resources/jdbc/insert-books.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Project1/src/main/resources/jdbc/insert-people.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
