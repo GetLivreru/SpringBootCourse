@@ -5,7 +5,7 @@ import lombok.*;
 import org.intellij.lang.annotations.Pattern;
 import org.jetbrains.annotations.NotNull;
 
-import javax.validation.constraints.*;
+import jakarta.validation.constraints.*;
 @Getter
 @Setter
 @NoArgsConstructor

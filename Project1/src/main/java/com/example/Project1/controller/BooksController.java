@@ -1,7 +1,7 @@
 package com.example.Project1.controller;
 
 
-import ch.qos.logback.core.model.Model;
+import org.springframework.ui.Model;
 import com.example.Project1.dao.BookDAO;
 import com.example.Project1.dao.PersonDAO;
 import com.example.Project1.integration.Book;
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 
 @Controller
 @RequestMapping("/books")
