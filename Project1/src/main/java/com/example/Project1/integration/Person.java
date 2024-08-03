@@ -1,12 +1,13 @@
 package com.example.Project1.integration;
 
 import com.example.Project1.validators.CurrentYear;
-import lombok.*;
-import org.intellij.lang.annotations.Pattern;
-import org.jetbrains.annotations.NotNull;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.EqualsAndHashCode;
 
-import jakarta.validation.constraints.*;
-@Getter
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
 @Setter
 @NoArgsConstructor
 @EqualsAndHashCode(exclude = {"id"})
