@@ -3,12 +3,14 @@ package com.example.Project1.integration;
 import com.example.Project1.validators.CurrentYear;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.Getter;
 import lombok.EqualsAndHashCode;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 @Setter
+@Getter
 @NoArgsConstructor
 @EqualsAndHashCode(exclude = {"id"})
 public class Person {
