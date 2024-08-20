@@ -22,6 +22,7 @@ import java.util.Objects;
 @ComponentScan("com.example.Project1")
 @EnableWebMvc
 @PropertySource("classpath:database.properties")
+@PropertySource("classpath:application.properties")
 public class SpringConfig implements WebMvcConfigurer {
 
     private final ApplicationContext context;
@@ -37,7 +38,7 @@ public class SpringConfig implements WebMvcConfigurer {
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(context);
-        templateResolver.setPrefix("/src/main/web/client/");
+        templateResolver.setPrefix("classpath:/templates/");
         templateResolver.setSuffix(".html");
         templateResolver.setCharacterEncoding("UTF-8");
         return templateResolver;
