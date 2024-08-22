@@ -4,8 +4,6 @@ import com.example.Project1.config.TestConfig;
 import com.example.Project1.controller.BooksController;
 import com.example.Project1.dao.PersonDAO;
 import com.example.Project1.dao.BookDAO;
-import com.example.Project1.integration.Person;
-import com.example.Project1.integration.Book;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
