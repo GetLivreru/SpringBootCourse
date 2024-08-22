@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.*;
         "/jdbc/create-book.sql", "/jdbc/insert-people.sql", "/jdbc/insert-books.sql"})
 @ContextConfiguration(classes = TestConfig.class)
 @TestMethodOrder(MethodOrderer.Random.class)
-public class BookDAOTest {
+ class BookDAOTest {
     private BookDAO bookDAO;
 
     @Autowired
