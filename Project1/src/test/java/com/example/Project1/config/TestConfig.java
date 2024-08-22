@@ -3,11 +3,13 @@ package com.example.Project1.config;
 import javax.sql.DataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
+@Profile("test")
 public class TestConfig implements WebMvcConfigurer {
     @Bean
     public DataSource dataSource(){
