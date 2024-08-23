@@ -27,27 +27,27 @@ Thymeleaf, HTML, CSS.
 
 Титульные страницы:
 
-![project1-img1.gif](project1/img1.gif)
+![project1-img1.gif](Project1/img1.gif)
 
 Создание и редактирование читателя (с валидацией):
 
-![project1-img2.gif](project1/img2.gif)
+![project1-img2.gif](Project1/img2.gif)
 
 Создание и редактирование книги (с валидацией):
 
-![project1-img3.gif](project1/img3.gif)
+![project1-img3.gif](Project1/img3.gif)
 
 Профиль читателя, профиль книги, освобождение книги при удалении читателя:
 
-![project1-img4.gif](project1/img4.gif)
+![project1-img4.gif](Project1/img4.gif)
 
 Отчёт о покрытии тестами:
 
-![project1-jacoco.png](project1/jacoco.png)
+![project1-jacoco.png](Project1/jacoco.png)
 
 ## project2
 
-![project2-task.jpg](project2/img.jpg)
+![project2-task.jpg](Project2/img.jpg)
 
 ---
 
