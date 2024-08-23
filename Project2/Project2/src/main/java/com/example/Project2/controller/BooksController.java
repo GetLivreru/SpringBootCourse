@@ -25,8 +25,21 @@ public class BooksController {
     }
 
     @GetMapping
-    public String showBooks(Model model) {
-        model.addAttribute("books", bookDAO.showBooks());
+    public String showBooks(@RequestParam(value = "page", required = false, defaultValue = "-1") int page,
+                            @RequestParam(value = "books_per_page", required = false, defaultValue = "-1") int booksPerPage,
+                            @RequestParam(value = "sort_by_year", required = false, defaultValue = "false") boolean sortByYear,
+                            Model model) {
+        List<Book> books;
+        if (page != -1 && booksPerPage != -1) {
+            books = sortByYear
+                    ? bookService.findAndPageAndSortByYear(page, booksPerPage)
+                    : bookService.findAndPage(page, booksPerPage);
+        } else if (page == -1 && booksPerPage == -1 && sortByYear) {
+            books = bookService.findAndSortByYear();
+        } else {
+            books = bookService.findAll();
+        }
+        model.addAttribute("books", books);
         return "books/show";
     }
 
