@@ -1,4 +1,4 @@
-# spring-project
+# SpringBootCourse
 
 Я прошел курс ["Spring - Полный курс. Boot, Hibernate, Security, REST"](https://www.udemy.com/course/spring-alishev/), 
 преподаватель Наиль Алишев, платформа Udemy.com. Процесс прохождения размещался в этом репозитории.
@@ -10,7 +10,7 @@
 я покрыла все проекты юнит- и интеграционными тестами. Поскольку на курсе меня научили тестировать только 
 SpringBoot-приложения, с другими конфигурациями пришлось повозиться, много гуглить. 
 
-## project1
+## Project 1
 
 ![project1-task.jpg](Project1/img.jpg)
 
@@ -45,7 +45,7 @@ Thymeleaf, HTML, CSS.
 
 ![project1-jacoco.png](Project1/jacoco.png)
 
-## project2
+## Project 2
 
 ![project2-task.jpg](Project2/img.jpg)
 
