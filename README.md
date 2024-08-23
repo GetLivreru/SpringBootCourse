@@ -12,11 +12,11 @@ SpringBoot-приложения, с другими конфигурациями 
 
 ## project1
 
-![project1-task.jpg](project1/img.jpg)
+![project1-task.jpg](Project1/img.jpg)
 
 ---
 
-Функционал реализован в полном объёме.
+Функционал реализован в полном объёме   .
 
 Приложение устанавливается на Tomcat-9, разворачивается в контекстном пути http://localhost:8080/library
 
