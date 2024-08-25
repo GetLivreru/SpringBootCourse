@@ -43,7 +43,7 @@ Thymeleaf, HTML, CSS.
 
 Отчёт о покрытии тестами:
 
-![project1-jacoco.png](Project1/jacoco.png)
+![project1-jacoco.png](Project1/jacoco2.png)
 
 ## Project 2
 
