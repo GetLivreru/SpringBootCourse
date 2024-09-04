@@ -1,6 +1,6 @@
 # SpringBootCourse
 
-I completed the course ["Spring - Полный курс. Boot, Hibernate, Security, REST"](https://www.udemy.com/course/spring-alishev/), 
+I taking a course ["Spring - Полный курс. Boot, Hibernate, Security, REST"](https://www.udemy.com/course/spring-alishev/), 
 taught by Nail Alishev on the Udemy.com platform. The learning process was documented in this repository.
 
 During the course, three training projects were completed.
